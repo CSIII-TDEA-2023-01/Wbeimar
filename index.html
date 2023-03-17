@@ -11,10 +11,8 @@
 <body>
            <!--  -->
             <div class="ventana">
-                <h1>MINIJUEGO FRUTAS</h1>
-                <br>
-                <p>Mueve el personaje para asi agarrar las esferas del dragon necesarias para superar el juego</p>
-                <p>(A-W-S-D)</p>
+                <h1>Juego Agarra Todas las Esferas</h1>
+                <p>Mueve al personaje para agarrar las esferas y radares<br> (A-W-S-D)</p>
             </div>
 
             <div class="nivel">
@@ -22,10 +20,16 @@
                     <tr>
                         <th>NIVEL ACTUAL</th>
                         <th>NIVEL MAXIMO</th>
+                        <th>Total Esfera de 4 </th>
+                        <th>Total Esfera de 1 </th>
+                        <th>Total Radares </th>
                     </tr>
                     <tr>
                         <td  id="nivelActual">1</td>
                         <td id="nivelFinal">7</td>
+                        <td id="contador1">0</td>
+                        <td id="contador2">0</td>
+                        <td id="contador3">0</td>
                     </tr>
                 </table>
             </div>
@@ -34,13 +38,13 @@
                <canvas width="1280" height="720" id="cuadro"></canvas>
             </div>
 
-            <div class="botons">
+           <!--  <div class="botons">
                 <button onclick="subirPlayer" id="arriba">UP</button>
                 <button onclick="bajarPlayer" id="abajo">DOWN</button>
                 <button onclick="izquierdaPlayer" id="izquierda">LEFT</button>
                 <button onclick="derechaPlayer" id="derecha">RIGTH</button>
              </div>
-
+-->
             
 
             <script src="accion.js"></script>
