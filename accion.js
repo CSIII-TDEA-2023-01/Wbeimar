@@ -57,10 +57,10 @@ var teclas = {
 
 nivel=1;
 
-var minimoY = 200;
-var maximoY = 500;
+var minimoY = 0;
+var maximoY = 680;
 var minimoX = 0;
-var maximoX = 690;
+var maximoX = 1200;
 
 var imagen = new Image();
 imagen.src = mapa;
@@ -366,7 +366,7 @@ function siguenteNivel(){
         pineAppleX.pop();
         appleX.pop();
         numero=numero+1;
-        velocidad=velocidad-1.5;
+        velocidad=velocidad+1.7;
         papel.clearRect(0, 0, cuadro.width, cuadro.height);
         cargarFondo();
         cargarApple();
