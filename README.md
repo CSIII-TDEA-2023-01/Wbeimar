@@ -1,11 +1,8 @@
 # Proyecto
-Bibliografia como parte del 15% y como adicion: el juego modificado en la clase de Construccion III
+Bibliografia 15%
 Herramientas de uso:
-
 - W3school, Boostrap
 - Google
 - VSCode
-
-Formulario de contacto: NO FUNCIONAL
 
 Link: roldanw18.github.io
