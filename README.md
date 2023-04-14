@@ -1,2 +1,0 @@
-# MinijuegoDB
-Agarra todo
